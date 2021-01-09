@@ -11,7 +11,7 @@ class RocketDetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFF0F0F0),
+      backgroundColor: Colors.white,
       appBar: buildAppBar(context),
       body: RocketDetailBody(rocket: rocket),
     );
@@ -19,7 +19,7 @@ class RocketDetailsScreen extends StatelessWidget {
 
   AppBar buildAppBar(BuildContext context) {
     return AppBar(
-      backgroundColor: Color(0xFFF0F0F0),
+      backgroundColor: Colors.white,
       elevation: 0,
       leading: IconButton(
         icon: SvgPicture.asset(

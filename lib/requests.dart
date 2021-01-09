@@ -22,3 +22,20 @@ final String rocketListQuery = """
 }
 
 """;
+
+final String launchListQuery = """
+{
+  launches {
+    launch_date_local
+    rocket {
+      rocket_name
+      rocket_type
+    }
+    launch_site {
+      site_name
+    }
+    launch_success
+  }
+}
+
+""";

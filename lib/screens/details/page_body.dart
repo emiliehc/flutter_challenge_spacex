@@ -22,9 +22,8 @@ class RocketDetailBody extends StatelessWidget {
             child: Stack(
               children: <Widget>[
                 Container(
-                  margin: EdgeInsets.only(top: size.height * 0.2),
+                  margin: EdgeInsets.only(top: size.height * 0.17),
                   padding: EdgeInsets.only(
-                    top: defaultPadding * 1.6,
                     left: defaultPadding,
                     right: defaultPadding,
                   ),

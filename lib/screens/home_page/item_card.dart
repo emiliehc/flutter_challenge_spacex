@@ -47,10 +47,10 @@ class RocketCard extends StatelessWidget {
                   Align(
                     alignment: Alignment.topRight,
                     child: Container(
-                      width: 200,
+                      width: 150,
                       child: Container(
                         child: Padding(
-                          padding: EdgeInsets.only(left: 20, top: 5, bottom: 5),
+                          padding: EdgeInsets.only(left: 15, top: 5, bottom: 5),
                           child: Column(
                             children: [
                               Container(
@@ -59,7 +59,7 @@ class RocketCard extends StatelessWidget {
                                   child: Text(
                                     "ROCKET",
                                     style: TextStyle(
-                                      color: Colors.red
+                                      color: redColor
                                     ),
                                   )
                                 ),

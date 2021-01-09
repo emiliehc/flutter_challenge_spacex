@@ -18,15 +18,4 @@ class Rocket {
   });
 }
 
-List<Rocket> rockets = [
-  Rocket(
-      id: 1,
-      name: "Falcon 9",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Falcon_9_logo.svg/1200px-Falcon_9_logo.svg.png",
-  ),
-  Rocket(
-      id: 2,
-      name: "Samasource Sofa",
-      image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Soyuz_TMA-9_launch.jpg",
-  )
-];
+List<Rocket> rockets = [];

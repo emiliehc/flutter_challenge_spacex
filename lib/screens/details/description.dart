@@ -22,7 +22,7 @@ class PropertyItem extends StatelessWidget {
           child: Text(
               title.toUpperCase(),
               style: TextStyle(
-                color: Colors.red,
+                color: redColor,
                 fontSize: 12
               )
           ),
