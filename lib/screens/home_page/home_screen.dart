@@ -19,6 +19,8 @@ class MainPage extends StatelessWidget {
               toolbarHeight: 50,
               bottom: TabBar(
                 indicatorColor: redColor,
+                indicatorSize: TabBarIndicatorSize.label,
+                indicatorWeight: 3,
                 tabs: [
                   Tab(
                     child: Text(
